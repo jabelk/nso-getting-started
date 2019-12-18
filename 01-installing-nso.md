@@ -6,7 +6,7 @@ Cisco makes NSO available for anyone to use and try in a non-production use comp
 
 ## Pre-requisites 
 ### Operating System 
-Cisco NSO can run on macOS or on Linux systems.  If you are a Window's user (or if you don't wish to install it natively on your laptop), you can install NSO on a Linux virtual machine.  For small lab networks you'll only need a single vCPU and 2-4 GB of RAM. 
+Cisco NSO can run on macOS or on Linux systems.  If you are a Window's user (or if you don't wish to install it natively on your laptop), you can install NSO on a Linux virtual machine.  For small lab networks you'll only need a single vCPU and 2-4 GB of RAM. You can even use [this NSO Vagrant File](https://github.com/NSO-developer/nso-vagrant)
 
 NSO also runs quite well within Docker Containers, and you can find resources for that at [gitlab.com/nso-developer/nso-docker](https://gitlab.com/nso-developer/nso-docker).
 
@@ -32,8 +32,8 @@ NSO requires Java to be installed to function.  Any method of installing Java sh
 ## Local vs System Installation 
 Before you install NSO onto your system, you need to decide whether to do a "System" or "Local" installation.  Here's a simple breakdown of the two.  
 
-* **System Install** is used when installing NSO for a centralized, "always-on", production grade purpose.  Is configured as a system daemon that would start and end with the underlying operating system.  
-* **Local Install** is used for development, lab, and evaluation purposes. It unpacks all the application components, including docs and examples, and allows the user to instantiate and start instances of NSO on demand.  A Local Install on a single workstation can be used by the engineer to run multiple, unrelated instances of NSO for different labs and demos. 
+* **System Install** is used when installing NSO for a centralized, "always-on", producttion grade purpose.  Is configured as a system daemon that would start and end with the underlying operating system.  
+* **Local Install** is used for development, lab, and evaluation purposes. It unpacks all the applicaiton components, including docs and examples, and allows the user to instantiate and start instances of NCS on demand.  A Local Install on a single workstation can be used by the engineer to run multiple, unrelated instances of NSO for different labs and demos. 
 
 As we are just getting started, we'll be using a "Local Installation" of NSO.  
 
